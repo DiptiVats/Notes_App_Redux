@@ -1,0 +1,25 @@
+.dashboard-button {
+  width: 90%;
+  height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-left: 5%;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.7rem;
+  border-radius: 0.3rem;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  transition: all 0.08s;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #7349fdde;
+}
+.dashboard-button:hover {
+  width: 94%;
+  margin-left: 3%;
+  height: 4.8rem;
+}
+.dashboard-button:active {
+  width: 89%;
+  margin-left: 5.5%;
+}

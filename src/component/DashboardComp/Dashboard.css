@@ -1,0 +1,26 @@
+.dashboard {
+  background-color: #1f1f1f;
+  width: 20vw;
+  min-width: 25rem;
+  height: 94vh;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  display: border-box;
+  border-radius: 6px;
+}
+.dashboard-button__first {
+  width: 90%;
+  height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-left: 5%;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: rgb(255, 255, 255);
+  transition: all 0.08s;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #c940ff;
+}
