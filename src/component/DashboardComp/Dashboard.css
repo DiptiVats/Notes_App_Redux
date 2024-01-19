@@ -24,3 +24,6 @@
   cursor: pointer;
   background-color: #c940ff;
 }
+.heading {
+  display: inline;
+}

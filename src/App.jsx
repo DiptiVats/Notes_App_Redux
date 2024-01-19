@@ -5,6 +5,7 @@ import Dashboard from "./component/DashboardComp/Dashboard";
 
 function App() {
   const isAddNewNote = useSelector((state) => state.newNote.newNoteState);
+  const notes = useSelector((state) => state.saveNote.notes);
 
   return (
     <div>

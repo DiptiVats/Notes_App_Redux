@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Board.css";
 import { useDispatch, useSelector } from "react-redux";
 import { saveNoteAction } from "../../store";
+
 export default function Board() {
   const dispatch = useDispatch();
   const [initialColor, setInititalColor] = useState("#ffffff");
@@ -26,6 +27,9 @@ export default function Board() {
   }
 
   function SaveHandler() {
+    if (initialName.length <= 4 || initialName.length >= 15) {
+      return;
+    }
     dispatch(
       saveNoteAction.onSaveNote({
         initialColor,
@@ -34,6 +38,9 @@ export default function Board() {
       })
     );
     console.log(newNotes);
+    setInitialName("");
+    setINititalDiscription("");
+    setInititalColor("#ffffff");
   }
   return (
     <div className="board">

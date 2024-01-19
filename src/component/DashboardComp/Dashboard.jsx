@@ -15,7 +15,6 @@ function Dashboard() {
       <button className="dashboard-button__first" onClick={addNewNoteHandler}>
         <big>+</big> Add New Note
       </button>
-      <Button>hii</Button>
       {newNotes.map((note) => (
         <Button
           colorOfText={note.colour}
